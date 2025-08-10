@@ -6,4 +6,4 @@
 
 > Repositori ini ditujukan sebagai penyimpanan berkas-berkas praktikum pribadi. Apabila ingin menggunakan repositori ini sebagai referensi pembelajaran, sangat disarankan untuk mengerjakan ulang soal-soal yang disertakan.
 
-**Kontak: @izhralf_ on instagram**
+**Kontak (instagram): @izhralf_**
