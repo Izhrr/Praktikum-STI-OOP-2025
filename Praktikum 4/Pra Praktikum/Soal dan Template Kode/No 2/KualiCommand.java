@@ -1,0 +1,33 @@
+/**
+ * KualiCommand.java
+ * [Jelaskan kegunaan class ini]
+ * 
+ * @author [NIM] [Nama]
+ */
+
+public class KualiCommand implements ICommandAction {
+    private Kuali kuali;
+    
+    /**
+     * Konstruktor untuk membuat command baru dengan objek Kuali tertentu
+     * 
+     * @param kuali Objek Kuali yang akan dikontrol oleh command ini
+     */
+    public KualiCommand(Kuali kuali) {
+    }
+    
+    /**
+     * Mengeksekusi perintah dengan memanggil metode heat() dan cook() secara
+     * berturut-turut pada objek Kuali
+     */
+    @Override
+    public void execute() {
+    }
+    
+    /**
+     * Membatalkan perintah dengan memanggil metode turnOff() pada objek Kuali
+     */
+    @Override
+    public void undo() {
+    }
+}

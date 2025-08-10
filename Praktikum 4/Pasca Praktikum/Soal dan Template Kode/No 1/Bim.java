@@ -1,0 +1,41 @@
+/*
+    Nama                    : 
+    NIM                     : 
+    Hari dan tanggal        : 
+    Deskripsi Program       :
+*/
+
+/**
+ * Bim.java
+ *
+ * Implementasi spesifik untuk model Bim.
+ */
+public class Bim extends Bike implements Feature {
+    private static int count = 0; // jumlah instance Bim yang dibuat
+
+    /**
+     * Konstruktor untuk Bim.
+     * Inisialisasi: name="Bim", price=700, battery=200.2
+     * Catat jumlah instance Bim yang dibuat.
+     */
+    public Bim() {}
+
+    /** @return jumlah instance Bim yang dibuat */
+    public static int getCount() {}
+
+    /**
+     * Bim tidak bisa ditawar.
+     *
+     * @param yourOffer tawaran harga
+     * @return selalu false
+     */
+    @Override
+    public boolean discountOffer(Number yourOffer) {}
+
+    /**
+     * Cetak fitur khusus Bim.
+     * Expected: "Bim bim bim chota bim chota bim!"
+     */
+    @Override
+    public void printSpecialFeature() {}
+}

@@ -1,0 +1,34 @@
+/**
+ * BumbuCommand.java
+ * [Jelaskan kegunaan class ini]
+ * 
+ * @author [NIM] [Nama]
+ */
+
+public class BumbuCommand implements ICommandAction {
+    private Bumbu bumbu;
+    
+    /**
+     * Konstruktor untuk membuat command baru dengan objek Bumbu tertentu
+     * 
+     * @param bumbu Objek Bumbu yang akan dikontrol oleh command ini
+     */
+    public BumbuCommand(Bumbu bumbu) {
+    }
+    
+    /**
+     * Mengeksekusi perintah dengan memanggil metode grindSpice() dan saute()
+     * secara berturut-turut pada objek Bumbu
+     */
+    @Override
+    public void execute() {
+    }
+    
+    /**
+     * Membatalkan perintah dengan memanggil metode stopSaute() pada
+     * objek Bumbu
+     */
+    @Override
+    public void undo() {
+    }
+}
