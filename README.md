@@ -1,6 +1,6 @@
 # Praktikum-STI-OOP-2025
 
-**Author: 18223129/Izhar Alif Akbar**
+**Author: 18223129 / Izhar Alif Akbar**
 
 > Dokumentasi pengerjaan praktikum Pemrograman Berbasis Objek (PBO) 2025, Fakultas STEI-K ITB, Sistem dan Teknologi Informasi.
 
